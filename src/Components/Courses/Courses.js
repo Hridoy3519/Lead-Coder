@@ -3,10 +3,13 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Row } from "react-bootstrap";
 import CourseCard from "../CourseCard/CourseCard";
-
+import { addToDb} from "../../utilities/fakedb";
 const Courses = () => {
   const [courses, setCourses] = useState([]);
-  const [cart, setCart] = useState([]);
+  const addToCart = (pd) => {
+    addToDb(pd);
+  };
+
   useEffect(() => {
     fetch("./courses.JSON")
       .then((res) => res.json())
@@ -23,8 +26,7 @@ const Courses = () => {
               <CourseCard
                 key={course.key}
                 course={course}
-                cart={cart}
-                setCart={setCart}
+                addToCart = {addToCart}
               ></CourseCard>
             ))}
           </Row>

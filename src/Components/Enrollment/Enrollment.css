@@ -1,0 +1,10 @@
+.no-course{
+    display: grid;
+    height: 70vh;
+    place-items: center;
+}
+
+.courses{
+    min-height: 70vh;
+    padding: 50px 0;
+}

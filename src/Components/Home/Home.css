@@ -4,3 +4,10 @@
     text-align: center;
     color: blue;
 }
+
+.see-more{
+    background-image: linear-gradient(to right, #283E90 0%, #5972ce  51%, #283E90  100%);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+}

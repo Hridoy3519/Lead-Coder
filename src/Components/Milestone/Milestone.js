@@ -14,12 +14,12 @@ const Milestone = () => {
           <p>Courses</p>
         </div>
         <div className="col-md-4">
-          <i class="fa fa-youtube fa-3x"></i>
+          <i className="fa fa-youtube fa-3x"></i>
           <h3 className="count2">980K</h3>
           <p>Youtube Subscribers</p>
         </div>
         <div className="col-md-4">
-          <i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i>
+          <i className="fa fa-graduation-cap fa-4x" aria-hidden="true"></i>
           <h3 className="count3">2500</h3>
           <p>Students</p>
         </div>

@@ -2,7 +2,7 @@
     height: 250px;
 }
 
-.fa{
+.fa-star-o, .fa-star{
     font-size: 18px;
     color: goldenrod;
 }
