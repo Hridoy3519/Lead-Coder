@@ -1,0 +1,41 @@
+[
+    {
+        "key": "B002RL8IYZ",
+        "title": "MERN Stack",
+        "description": "MongoDB| Express Js| React Js| Node Js",
+        "price": 10000,
+        "date": "Starts 1st Dec, 2021",
+        "seat": "60 Students",
+        "img": "./images/services/mern.jpg"
+    },
+
+    {
+        "key": "B002RL8IYY",
+        "title": "PHP-Laravel Stack",
+        "description": "Laravel| Advanced PHP| MySQL",
+        "price": 14000,
+        "date": "Starts 15th Nov, 2021",
+        "seat": "45 Students",
+        "img": "./images/services/laravel.jpg"
+    },
+
+    {
+        "key": "B002RL8IYX",
+        "title": "CCNA",
+        "description": "Cisco Certified Network Associate",
+        "price": 22000,
+        "date": "Starts 1st Jan, 2022",
+        "seat": "25 Students",
+        "img": "./images/services/ccna.png"
+    },
+
+    {
+        "key": "B002RL8IYW",
+        "title": "AWS",
+        "description": "AWS Certified Solution Architect Associate",
+        "price": 18000,
+        "date": "Starts 1st Jan, 2022",
+        "seat": "30 Students",
+        "img": "./images/services/aws.png"
+    }
+]
