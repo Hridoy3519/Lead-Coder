@@ -22,20 +22,11 @@ const Footer = () => {
           <div className="col-md-1"></div>
           <div className="col-md-2">
             <h5>Terms</h5>
-            <h6>Web Development</h6>
-            <h6>Ethical Hacking</h6>
-            <h6>Cloud Development</h6>
-            <h6>Network Engineer</h6>
-            <h6>AWS Architect</h6>
+            <h6>About US</h6>
+            <h6>Contact Us</h6>
           </div>
           <div className="col-md-1"></div>
           <div className="col-md-2">
-            <h5>Useful links</h5>
-            <h6>Web Development</h6>
-            <h6>Ethical Hacking</h6>
-            <h6>Cloud Development</h6>
-            <h6>Network Engineer</h6>
-            <h6>AWS Architect</h6>
           </div>
         </div>
 
